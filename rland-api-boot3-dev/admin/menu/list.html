@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>admin/menu/list</title>
+
+    <link rel="stylesheet" href="../../css/reset.css" />
+    <link rel="stylesheet" href="../../css/style.css" />
+    <link rel="stylesheet" href="../../css/util.css" />
+    <link rel="stylesheet" href="../../css/anonymous/modal.css" />
+    <link rel="stylesheet" href="../../css/icon.css" />
+    <link rel="stylesheet" href="../../css/button.css" />
+    <link rel="stylesheet" href="../../css/component.css" />
+    <link rel="stylesheet" href="../../css/header.css" />
+    <link rel="stylesheet" href="../../css/footer.css" />
+    <link rel="stylesheet" href="../../css/aside.css" />
+    <link rel="stylesheet" href="../../css/menu.css" />
+    <link rel="stylesheet" href="../../css/admin/menu/list.css" />
+    <link
+      rel="stylesheet"
+      href="../../css/admin/menu/recommend-list.css"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="../../css/admin/menu/reg.css" />
+  </head>
+  <body>
+    <!-- ----------------------헤더---------------------------- -->
+    <header class="header-container">
+      <h1 class="d-none">알랜드</h1>
+      <div>
+        <a href="../../anonymous/index.html" title="index페이지로 이동합니다.">
+          <img src="../../image/logo.svg" />
+        </a>
+        <!-- <span class="menu-img cursor-pointer">메뉴</span> -->
+        <a class="icon icon-menu">메뉴</a>
+      </div>
+      <nav class="nav-wrap">
+        <h1 class="d-none">네비게이션 목록</h1>
+        <ul>
+          <li>
+            <a
+              href="../../anonymous/index.html"
+              class="icon icon-home"
+              title="index페이지로 이동합니다."
+              >홈</a
+            >
+          </li>
+          <li>
+            <a
+              href="../../admin/menu/list.html"
+              class="icon icon-setting"
+              title="메뉴관리 페이지로 이동합니다."
+              >설정</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <aside class="side-bar d-none">
+      <h1 class="d-none">어사이드 목록</h1>
+      <ul>
+        <li><a href="" class="icon icon-close">취소</a></li>
+        <li><a href="../index.html" class="">홈</a></li>
+        <li><a href="./list.html">메뉴 관리</a></li>
+        <li><a href="">로그아웃</a></li>
+      </ul>
+    </aside>
+
+    <!-- ----------------------메인---------------------------- -->
+    <main>
+      <div class="tab-search-container">
+        <div class="top-img-title">
+          <h1>메뉴 관리</h1>
+        </div>
+        <!-- ----------------메뉴 탭 -->
+        <div class="tab-search-wrap">
+          <section class="tab-section">
+            <h1>탭 목록</h1>
+            <ul>
+              <li class="selected"><a href="">전체메뉴</a></li>
+              <li><a href="">커피</a></li>
+              <li><a href="">수제청</a></li>
+              <li><a href="">샌드위치</a></li>
+              <li><a href="">쿠키</a></li>
+            </ul>
+          </section>
+          <!-- --------------------------------------------------검색바 -->
+          <section class="search-section">
+            <h1>검색</h1>
+            <form action="">
+              <input type="text" value="" name="search" />
+              <button type="submit" class="icon icon-search"></button>
+            </form>
+          </section>
+        </div>
+      </div>
+      <div class="flex-align">
+        <!-- ----------------상품추가 박스 모바일 -->
+        <a href="../menu/reg.html" class="menu-add-box-mobile">
+          <span class="icon icon-plus-circle"></span>
+        </a>
+        <!-- ----------------메뉴 목록 -->
+        <section class="menu-edit-section">
+          <h1 class="d-none">메뉴 목록</h1>
+          <!-- ----------------상품추가 박스 pc -->
+          <a href="../menu/reg.html" class="menu-add-box-pc">
+            <span class="icon icon-plus-circle"></span>
+          </a>
+
+          <section class="menu">
+            <div>
+              <a href="../../anonymous/menu/detail.html">
+                <img src="/image/espresso.svg" alt="에스프레소" />
+              </a>
+            </div>
+            <h1>에스프레소</h1>
+            <h2>Espresso</h2>
+            <div>2,500원</div>
+            <div>
+              <a class="icon icon-arrow-up">추천메뉴 보기</a>
+            </div>
+            <div>
+              <a href="" class="icon icon-lg icon-pencil">수정</a>
+              <a href="" class="icon icon-lg icon-trash">삭제</a>
+            </div>
+          </section>
+          <!-- ----------------추천메뉴 목록 -->
+          <section class="recommend-menu-section">
+            <div class="bl-2 pl-12 flex-cloumn-gap-12">
+              <h1>추천 메뉴</h1>
+              <section class="menu-delete-section">
+                <h1 class="d-none">메뉴 목록</h1>
+                <section class="menu">
+                  <div>
+                    <a href="">
+                      <img src="/image/espresso.svg" alt="에스프레소" />
+                    </a>
+                  </div>
+                  <h1>에스프레소</h1>
+                  <h2>Espresso</h2>
+                  <div>2,500원</div>
+                  <div>
+                    <a href="" class="icon icon-trash">삭제</a>
+                  </div>
+                </section>
+                <section class="menu">
+                  <div>
+                    <a href="">
+                      <img src="/image/espresso.svg" alt="에스프레소" />
+                    </a>
+                  </div>
+                  <h1>에스프레소</h1>
+                  <h2>Espresso</h2>
+                  <div>2,500원</div>
+                  <div>
+                    <a href="" class="icon icon-trash">삭제</a>
+                  </div>
+                </section>
+                <section class="menu">
+                  <div>
+                    <a href="">
+                      <img src="/image/espresso.svg" alt="에스프레소" />
+                    </a>
+                  </div>
+                  <h1>에스프레소</h1>
+                  <h2>Espresso</h2>
+                  <div>2,500원</div>
+                  <div>
+                    <a href="" class="icon icon-trash">삭제</a>
+                  </div>
+                </section>
+
+                <!-- ----------------상품추가 박스 pc small-->
+                <a href="../menu/reg.html" class="menu-add-box-pc-sm">
+                  <span class="icon icon-plus-circle"></span>
+                </a>
+                <!-- ----------------상품추가 박스 모바일 -->
+                <a href="../menu/reg.html" class="menu-add-box-mobile">
+                  <span class="icon icon-plus-circle"></span>
+                </a>
+              </section>
+            </div>
+          </section>
+
+          <section class="menu">
+            <div>
+              <a href="../../anonymous/menu/detail.html">
+                <img src="/image/espresso.svg" alt="에스프레소" />
+              </a>
+            </div>
+            <h1>에스프레소</h1>
+            <h2>Espresso</h2>
+            <div>2,500원</div>
+            <div>
+              <a class="icon icon-arrow-up">추천메뉴 보기</a>
+            </div>
+            <div>
+              <a href="" class="icon icon-lg icon-pencil">수정</a>
+              <a href="" class="icon icon-lg icon-trash">삭제</a>
+            </div>
+          </section>
+
+          <section class="menu">
+            <div>
+              <a href="../../anonymous/menu/detail.html">
+                <img src="/image/espresso.svg" alt="에스프레소" />
+              </a>
+            </div>
+            <h1>에스프레소</h1>
+            <h2>Espresso</h2>
+            <div>2,500원</div>
+            <div>
+              <a class="icon icon-arrow-up">추천메뉴 보기</a>
+            </div>
+            <div>
+              <a href="" class="icon icon-lg icon-pencil">수정</a>
+              <a href="" class="icon icon-lg icon-trash">삭제</a>
+            </div>
+          </section>
+
+          <section class="menu">
+            <div>
+              <a href="">
+                <img src="/image/espresso.svg" alt="에스프레소" />
+              </a>
+            </div>
+            <h1>에스프레소</h1>
+            <h2>Espresso</h2>
+            <div>2,500원</div>
+            <div>
+              <a class="icon icon-arrow-up">추천메뉴 보기</a>
+            </div>
+            <div>
+              <a href="" class="icon icon-lg icon-pencil">수정</a>
+              <a href="" class="icon icon-lg icon-trash">삭제</a>
+            </div>
+          </section>
+
+          <section class="menu">
+            <div>
+              <a href="">
+                <img src="/image/espresso.svg" alt="에스프레소" />
+              </a>
+            </div>
+            <h1>에스프레소</h1>
+            <h2>Espresso</h2>
+            <div>2,500원</div>
+            <div>
+              <a class="icon icon-arrow-up">추천메뉴 보기</a>
+            </div>
+            <div>
+              <a href="" class="icon icon-lg icon-pencil">수정</a>
+              <a href="" class="icon icon-lg icon-trash">삭제</a>
+            </div>
+          </section>
+        </section>
+      </div>
+    </main>
+
+    <!-- 푸터 -->
+    <footer class="footer-container">
+      <a href="">홈페이지 이용약관</a>
+      <span>사업자 등록번호: 123-45-67</span>
+      <span>Ⓒ 2023 Rland Newlecture All Rights Reserved</span>
+    </footer>
+
+    <!-- -------------- 모달 섹션 ------------------ -->
+
+    <!-- 메뉴삭제 모달 -->
+    <div class="modal-background d-none">
+      <div class="modal-box-sm">
+        <div>메뉴를 삭제하시겠습니까?</div>
+        <div class="modal-box-sm-2btn">
+          <a href="" class="btn btn-shadow">아니오</a>
+          <a href="" class="btn btn-default">네</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 추천메뉴삭제 모달 -->
+    <div class="modal-background d-none">
+      <div class="modal-box-sm">
+        <div>추천 메뉴를 삭제하시겠습니까?</div>
+        <div class="modal-box-sm-2btn">
+          <a href="" class="btn btn-shadow">아니오</a>
+          <a href="" class="btn btn-default">네</a>
+        </div>
+      </div>
+    </div>
+    <!-- -------------- temp close ------------------ -->
+    <script>
+      let regSection = document.querySelector("#reg");
+      let bg = document.querySelector(".reg-background");
+      let btn = regSection.querySelector(".btn");
+
+      btn.onclick = function (e) {
+        e.preventDefault();
+
+        if (e.target.tagName != "A") return;
+
+        bg.classList.add("d-none");
+      };
+    </script>
+  </body>
+</html>

@@ -1,0 +1,81 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "kr.co.rland.rlandboot3.ex4stream.Program",
+            "projectName": "rland-boot3"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "kr.co.rland.rlandboot3.ex3except.Program",
+            "projectName": "rland-boot3"
+        },
+        {
+            "type": "java",
+            "name": "program2",
+            "request": "launch",
+            "mainClass": "kr.co.rland.rlandboot3.ex1sort.program2",
+            "projectName": "rland-boot3"
+        },
+        {
+            "type": "java",
+            "name": "program",
+            "request": "launch",
+            "mainClass": "kr.co.rland.rlandboot3.ex1sort.program",
+            "projectName": "rland-boot3"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "kr.co.rland.rlandboot3.serialize.Program",
+            "projectName": "rland-boot3"
+        },
+        {
+            "type": "java",
+            "name": "program2",
+            "request": "launch",
+            "mainClass": "kr.co.rland.rlandboot3.thread.program2",
+            "projectName": "rland-boot3"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "kr.co.rland.rlandboot3.thread.Program",
+            "projectName": "rland-boot3"
+        },
+        {
+            "type": "java",
+            "name": "RlandApiBoot3Application",
+            "request": "launch",
+            "mainClass": "kr.co.rland.rlandapiboot3.RlandApiBoot3Application",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-WebApplication<web>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.rland.web.WebApplication",
+            "projectName": "web",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-RlandBoot3Application<rland-boot3>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "kr.co.rland.rlandboot3.RlandBoot3Application",
+            "projectName": "rland-boot3",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=53672 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=rland-boot3"
+        }
+    ]
+}

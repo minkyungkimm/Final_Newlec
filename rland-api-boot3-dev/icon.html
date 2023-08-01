@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/button.css" rel="stylesheet" type="text/css" />
+    <link href="css/icon.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="css/util.css" rel="stylesheet" type="text/css" /> -->
+    <!-- <link href="css/layout.css" rel="stylesheet" type="text/css"/> -->
+
+    <title>Icons and Decorations for rland</title>
+    <style>
+
+      h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        font-weight: var(--semi-bold-weight);
+      }
+  
+      section h1 {
+        font-size: 18px;
+        font-weight: var(--semi-bold-weight);
+        height: 50px;
+        display: flex;
+        align-items: center;
+      }
+  
+      .icon-section,
+      .icon-example {
+        border: solid 1px #000;
+      }
+  
+      .icon-section > section:nth-child(2n) {
+        background-color: var(--color-bg);
+      }
+  
+      .icon-section > h1,
+      .icon-example > h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 24px;
+        padding: 10px;
+        background-color: var(--color-violet-1);
+      }
+  
+      .icon-section > section {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+      }
+  
+      .icon-section > section > h1,
+      span {
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+      }
+      .icon-section > section > h1 {
+        font-weight: bold;
+
+        padding-right: 12px;
+        box-sizing: border-box;
+      }
+  
+      .icon-section > section ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-grow: 1;
+      }
+  
+      .icon-section > section ul li {
+        display: flex;
+        align-items: center;
+        padding: 4px;
+        width: 100%;
+        justify-content: start;
+        gap: 12px;
+      }
+
+      .icon-section > section ul li > div {
+        width: 50%;
+
+        display: flex;
+        justify-content: space-between;
+        flex-grow: 1;
+      }
+  
+      .icon-section > section ul .icon-description span {
+        display: inline-block;
+        color: var(--color-orange-8);
+      }
+  
+      .list {
+        display: flex;
+        align-items: flex-end;
+        padding: 10px;
+      }
+  
+      .list a {
+        margin-left: 14px;
+      }
+  
+      .list a:first-child {
+        margin-left: 0px;
+      }
+  
+      .list li {
+        display: flex;
+        flex-direction: column;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Icons and Decorations for rland</h1>
+    </header>
+    <br>
+    <section class="icon-section">
+      <h1>icon class usage</h1>
+      <section>
+        <h1>icon style</h1>
+        <ul>
+          <li>
+            <div>
+              <span>icon icon-menu</span>
+              <a class="icon icon-menu" href="">메뉴</a>
+            </div>
+            <div>
+              <span>icon icon-circle icon-menu</span>
+              <a class="icon icon-circle icon-menu" href="">메뉴</a>
+            </div>
+          </li>
+          <li>
+            <div>
+              icon responsive style
+              (min-width: 768px)
+            </div>
+            <div>
+
+              <span>icon icon-lg</span>
+              <a class="icon icon-lg icon-menu" href="">메뉴</a>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+    </section>
+    <br />
+    <h1 class="text-title-1">24 * 24 아이콘</h1>
+    <section>
+      <a class="icon icon-arrow-left-line">뒤로가기</a>
+      <a class="icon icon-arrow-up">접기</a>
+      <a class="icon icon-arrow-up active">펼치기</a>
+      <a class="icon icon-cart">주문 담기</a>
+      <a class="icon icon-plus">추가</a>
+      <a class="icon icon-minus">삭제</a>
+      <a class="icon icon-heart-fill">좋아요</a>
+      <a class="icon icon-comment-fill">댓글</a>
+      <a class="icon icon-logo-naver">네이버 로고</a>
+
+      <br />
+      <a class="icon icon-exclamation-circle-fill"></a>
+      <a class="icon icon-assignment-add"></a>
+      <a class="icon icon-cart-count"></a>
+      <a class="icon icon-arrow-right icon-circle">다음</a>
+      <a class="icon icon-arrow-right invert icon-circle">이전</a>
+
+      <a class="icon icon-home">홈화면가기</a>
+      <a class="icon icon-setting">설정</a>
+      <a class="icon icon-plus-circle">추가</a>
+      <a class="icon icon-minus-circle">삭제</a>
+
+      <a class="icon icon-person"></a>
+      <a class="icon icon-sign-out"></a>
+
+      <a class="icon icon-logo">뉴렉처 로고</a>
+      <a class="icon icon-logo-text">뉴렉처 글자 로고</a>
+      <!-- <a class=" icon-logo-google">구글 로고</a> -->
+      <div class="icon icon-logo-google">구글 로고</div>
+
+      <a class="icon icon-search">검색</a>
+    </section>
+
+    <br />
+    <br />
+    <!-- <a class="icon-deco icon-pencil">데코</a> -->
+
+    
+    <section class="icon-section">
+      <h1 class="">20 * 20 아이콘</h1>
+      <a class="icon icon-pencil">편집</a>
+      <a class="icon icon-trash">삭제</a>
+
+      <span class="icon icon-close">취소 또는 닫기</span>
+
+      <span class="icon icon-menu">메뉴</span>
+      <span class="icon icon-heart">나만의 메뉴</span>
+      <span class="icon icon-setting">나만의 메뉴</span>
+    </section>
+
+    <h1 class="text-title-1">20 * 20 아이콘 pc</h1>
+    <a class="icon icon-lg icon-pencil">편집</a>
+    <a class="icon icon-lg icon-trash">휴지통</a>
+    <a class="icon icon-cart icon-lg">주문 담기</a>
+    <a class="icon icon-plus icon-lg">추가</a>
+    <section>
+      <br />
+      <br />
+      <section>
+        <h1 class="text-title-1">44*44 데코</h1>
+        <span class="deco icon-logo-google">구글로 로그인하기</span>
+        <span class="deco icon-logo-naver">네이버로 로그인하기</span>
+        <span class="deco icon-logo-kakao">카카오로 로그인하기</span>
+
+        <span class="deco icon-exclamation-circle-fill"
+          >사이즈와 옵션 여부를 선택하세요.</span
+        >
+      </section>
+
+      <br />
+      <br />
+      <section>
+        <h1 class="text-title-1">44*44 데코 버튼</h1>
+        <span class="deco icon-logo-google btn btn-outline"
+          >구글로 로그인하기</span
+        >
+        <span class="deco icon-logo-naver btn btn-outline"
+          >네이버로 로그인하기</span
+        >
+      </section>
+    </section>
+  </body>
+</html>

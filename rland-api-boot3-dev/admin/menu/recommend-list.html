@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../../css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/style.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/icon.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/button.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/util.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/component.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="/css/menu.css" />
+    <link href="../../css/anonymous/modal.css" rel="stylesheet" />
+    <link
+      href="../../css/admin/menu/recommend-list.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script type="module" src="../../js/admin.js"></script>
+    <title>/admin/menu/recommend-list (팝업)</title>
+  </head>
+  <body>
+    <div class="modal-screen">
+      <div class="modal">
+        <section class="admin-recommend-list">
+          <h1>추천메뉴관리</h1>
+          <header>
+            <h1>메뉴 정보</h1>
+            <img src="/image/latte.svg" alt="카페라떼" />
+            <div class="menu-title">
+              <span class="text-title-1">카페라떼</span>
+              <span class="text-title-1">4,500원</span>
+              <span class="text-sub">CafeLatte</span>
+            </div>
+            <div class="text-ctt">
+              카페라떼와 어울리는 추천메뉴를 선택해보세요!
+            </div>
+          </header>
+          <!-- --------------------------------------------------------------------메뉴탭 -->
+          <div class="tab-search-wrap">
+            <section class="tab-section">
+              <h1>탭 목록</h1>
+              <ul>
+                <li class="selected"><a href="">전체메뉴</a></li>
+                <li><a href="">커피</a></li>
+                <li><a href="">수제청</a></li>
+                <li><a href="">샌드위치</a></li>
+                <li><a href="">쿠키</a></li>
+              </ul>
+            </section>
+            <!-- -------------------------------------------------- -->
+            <section class="search-section">
+              <h1>검색</h1>
+              <form action="">
+                <input type="text" value="" name="search" autocomplete="off" />
+                <button type="submit" class="icon icon-search"></button>
+              </form>
+            </section>
+          </div>
+          <!-- --------------------------------------------------------------------메뉴 목록 -->
+          <section class="check-section">
+            <h1>메뉴 선택</h1>
+            <form action="" class="check-section-form">
+              <div class="check-all-div">
+                <div class="d-inline-block">전체선택</div>
+                <input type="checkbox" id="check-all" class="check-all" />
+              </div>
+              <section class="menu-check-section">
+                <h1 class="d-none">메뉴 목록</h1>
+                <section class="menu">
+                  <div>
+                    <a href="../../anonymous/menu/detail.html">
+                      <img src="/image/espresso.svg" alt="에스프레소" />
+                    </a>
+                  </div>
+                  <h1>에스프레소</h1>
+                  <h2>Espresso</h2>
+                  <div>2,500원</div>
+                  <div>
+                    <input type="checkbox" class="check-box" name="" value="" />
+                  </div>
+                </section>
+                <section class="menu">
+                  <div>
+                    <a href="../../anonymous/menu/detail.html">
+                      <img src="/image/espresso.svg" alt="에스프레소" />
+                    </a>
+                  </div>
+                  <h1>에스프레소</h1>
+                  <h2>Espresso</h2>
+                  <div>2,500원</div>
+                  <div>
+                    <input type="checkbox" class="check-box" name="" value="" />
+                  </div>
+                </section>
+                <section class="menu">
+                  <div>
+                    <a href="../../anonymous/menu/detail.html">
+                      <img src="/image/espresso.svg" alt="에스프레소" />
+                    </a>
+                  </div>
+                  <h1>에스프레소</h1>
+                  <h2>Espresso</h2>
+                  <div>2,500원</div>
+                  <div>
+                    <input type="checkbox" class="check-box" name="" value="" />
+                  </div>
+                </section>
+                <section class="menu">
+                  <div>
+                    <a href="">
+                      <img src="/image/espresso.svg" alt="에스프레소" />
+                    </a>
+                  </div>
+                  <h1>에스프레소</h1>
+                  <h2>Espresso</h2>
+                  <div>2,500원</div>
+                  <div>
+                    <input type="checkbox" class="check-box" name="" value="" />
+                  </div>
+                </section>
+                <section class="menu">
+                  <div>
+                    <a href="">
+                      <img src="/image/espresso.svg" alt="에스프레소" />
+                    </a>
+                  </div>
+                  <h1>에스프레소</h1>
+                  <h2>Espresso</h2>
+                  <div>2,500원</div>
+                  <div>
+                    <input type="checkbox" class="check-box" name="" value="" />
+                  </div>
+                </section>
+                <section class="menu">
+                  <div>
+                    <a href="">
+                      <img src="/image/espresso.svg" alt="에스프레소" />
+                    </a>
+                  </div>
+                  <h1>에스프레소</h1>
+                  <h2>Espresso</h2>
+                  <div>2,500원</div>
+                  <div>
+                    <input type="checkbox" class="check-box" name="" value="" />
+                  </div>
+                </section>
+              </section>
+              <!-- --------------------------------------------------------------------버튼 -->
+              <div class="btn-bottom">
+                <div class="">
+                  <a
+                    href="../../anonymous/menu/detail.html"
+                    class="btn"
+                    title="뒤로 가기"
+                    >취소</a
+                  >
+                </div>
+                <div class="">
+                  <input class="btn" type="submit" value="저장" />
+                </div>
+              </div>
+            </form>
+          </section>
+        </section>
+      </div>
+    </div>
+    <!-- 추천메뉴 등록 모달 -->
+    <div class="modal-background d-none">
+      <div class="modal-box-sm">
+        <div>추천메뉴룰 등록하시겠습니까?</div>
+        <div class="modal-box-sm-2btn">
+          <a href="" class="btn btn-shadow">아니오</a>
+          <a href="" class="btn btn-default">네</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
